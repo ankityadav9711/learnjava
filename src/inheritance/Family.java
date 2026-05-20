@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Family {
     static void main(String[] args) {

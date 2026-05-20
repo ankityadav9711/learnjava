@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Student1 extends Person1 {
     int rollNumber;

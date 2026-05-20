@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Developer extends Employee{
     private String language;

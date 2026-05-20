@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Bus extends Vehicle{
     @Override

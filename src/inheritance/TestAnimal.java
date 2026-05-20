@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class TestAnimal {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class SavingsAccount extends Account{
     private int balance;

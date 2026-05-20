@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Property {
     private String location;

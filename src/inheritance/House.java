@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class House extends Property{
     private int room;

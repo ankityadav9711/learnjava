@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Office extends Property{
     private int numberOfTeammember;

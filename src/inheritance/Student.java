@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Student extends Person{
     static void main(String[] args) {

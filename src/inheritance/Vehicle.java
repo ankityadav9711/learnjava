@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Vehicle {
     public void sound()

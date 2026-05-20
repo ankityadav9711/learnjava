@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Account {
     private int accNo;
@@ -9,10 +9,12 @@ public class Account {
     }
 
     public void setAccNo(int accNo) {
+
         this.accNo = accNo;
     }
 
     public void setBranch(String branch) {
+
         this.branch = branch;
     }
 

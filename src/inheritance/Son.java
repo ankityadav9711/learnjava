@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Son extends Father{
     void bike(){

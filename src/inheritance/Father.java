@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Father extends GrandFather{
     void car(){

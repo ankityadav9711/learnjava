@@ -1,4 +1,4 @@
-package opps;
+package inheritance;
 
 public class Person1 {
     private String name;
