@@ -5,7 +5,6 @@ public class Property {
     private double price;
     private  int size;
 
-
     public Property(String location,double price,int size)
     {
         this.location=location;
