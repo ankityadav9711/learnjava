@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class SetImplementation {
@@ -19,17 +20,26 @@ public class SetImplementation {
         System.out.println(set);
         System.out.println(set.size());
 
+        Iterator<String> itr = set.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
+
         System.out.println(set);
         set.contains("Mayank");
         System.out.println(set.contains("Ram"));
         set.add("Vijay");
-        set.clear();
-        System.out.println(set);
+      //  set.clear();
+      //  System.out.println(set);
 
         set.clear();
         System.out.println(set);
         System.out.println(set.isEmpty());
 
-        set.remove("Vishal");
+        // Iterator
+       // Iterator<String> itr = set.iterator();
+      //  while(itr.hasNext()){
+            //System.out.println(itr.next());
+        //}
     }
 }

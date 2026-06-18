@@ -11,6 +11,5 @@ public class TreeSet {
         ts.add(38);
         System.out.println(ts);
 
-
     }
 }

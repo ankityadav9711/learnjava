@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListImplementation {
@@ -42,8 +43,13 @@ public class ListImplementation {
         lst.add(10,"Vijay");
         System.out.println(lst);
         System.out.println(lst.get(4));
-        lst.clear();
-         System.out.println(lst);
+       // lst.clear();
+       //  System.out.println(lst);
         System.out.println(lst.isEmpty());
+
+        Iterator<String> itr = lst.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
     }
 }
