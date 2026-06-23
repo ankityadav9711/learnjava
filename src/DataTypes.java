@@ -8,5 +8,6 @@ public class DataTypes {
         System.out.println("marks=" + marks);
         System.out.println("grade=" + grade);
         System.out.println("passed=" + passed);
+        System.out.println("fgfdhgnffdg");
     }
 }
